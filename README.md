@@ -8,3 +8,7 @@ I made this bot because of a real cool guy in our group chat that loves to post 
 2. Rename `secrets.example.env` to `secrets.env`
 3. Change `TELEGRAM_TOKEN` to your bot's token
 4. Run `docker-compose up`.
+
+## Issues
+
+Currently, image previews don't work in containers for some reason. I'll need to find another library or write something myself.
