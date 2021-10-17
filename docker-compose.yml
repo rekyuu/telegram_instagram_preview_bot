@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    env_file:
+      - secrets.env
+    volumes:
+      - ./app/data:/app/data
+    restart: always
