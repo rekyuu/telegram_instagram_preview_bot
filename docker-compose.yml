@@ -9,4 +9,4 @@ services:
       - secrets.env
     volumes:
       - ./app/data:/app/data
-    restart: always
+    restart: unless-stopped
